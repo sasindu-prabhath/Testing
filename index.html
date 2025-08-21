@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple POS</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="pos">
+    <header>
+      <h1>Simple POS</h1>
+    </header>
+    <main class="pos-main">
+      <section class="products">
+        <h2>Products</h2>
+        <div id="product-list"></div>
+      </section>
+      <section class="cart">
+        <h2>Cart</h2>
+        <ul id="cart-items"></ul>
+        <div class="total">Total: $<span id="cart-total">0.00</span></div>
+        <button id="checkout-button">Checkout</button>
+      </section>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
